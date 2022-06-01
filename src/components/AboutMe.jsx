@@ -1,6 +1,7 @@
 //!IMPORTS:
 import {
   Box,
+  Button,
   TextField,
   Typography,
   Dialog,
@@ -9,53 +10,42 @@ import {
   DialogContentText,
   DialogTitle,
   Card,
+  CardActions,
+  CardActionArea,
   CardContent,
+  CardMedia,
   Divider,
 } from "@mui/material";
 import fotoEva from "../assets/Eva.jpg";
 
 function AboutMe() {
   return (
-    <Card
-      variant={"outlined"}      
-      
-      sx={{ py: 5, px: 8, mx: 3, my: 5, border:"none" }}      
-    >
-      <CardContent sx={{ p: 1 }} className="cardStructure" maxWidth={"sm"} >
-      <Box>
-        <img
-          src={fotoEva}
-          alt={"Foto Eva"}
-          width="50%"
-          className="photo"
+    <Box sx={{ m: 10, display:"flex", flexDirection:"row", justifyContent:"center" }} >
+    <Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="300"
+          image={fotoEva}
+          alt="Foto Eva"
         />
-      </Box>
-        
-        <Box>
-
-        <Typography
-                maxWidth={"sm"}
-                sx={{ fontSize: 15, fontWeight: "bold" }}
-                color="black"
-                gutterBottom
-                align={"center"}
-              >
-                Eva GC
-              </Typography>
-              <Divider />
-              <Typography
-                maxWidth={"sm"}
-                sx={{ fontSize: 15, fontWeight: "bold" }}
-                color="black"
-                gutterBottom
-                align={"center"}
-              >
-                Eva GC
-              </Typography>
-              <Divider />
-              </Box>
-      </CardContent>
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Lizard
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+      </CardActions>
     </Card>
+    </Box>
   );
 }
 
