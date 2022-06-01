@@ -28,7 +28,12 @@ function NavBar() {
   
   return (
     <AppBar position="static" sx={{ backgroundColor: "#6d11ab", flexGrow: "1" }}>
-      <Container maxWidth="xl">
+    
+      <Container maxWidth="xl" sx={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+      }}>
         <Toolbar disableGutters  >
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
@@ -46,7 +51,7 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            PORTFOLIO
+            EVA G.C.
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -102,7 +107,7 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            PORTFOLIO
+            EVA G.C.
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
