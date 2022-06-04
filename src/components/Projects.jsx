@@ -30,38 +30,7 @@ const projects = [
     image: "E",
     description: "Loquesea",
     technologies: "blabla",
-  },
-  {
-    name: "PokeRex Game",
-    date: "February, 2022",
-    author: "E",
-    image: "E",
-    description: "Loquesea",
-    technologies: "blabla",
-  },
-  {
-    name: "PokeRex Game",
-    date: "February, 2022",
-    author: "E",
-    image: "E",
-    description: "Loquesea",
-    technologies: "blabla",
-  },
-  {
-    name: "PokeRex Game",
-    date: "February, 2022",
-    author: "E",
-    image: "E",
-    description: "Loquesea",
-    technologies: "blabla",
-  },
-  {
-    name: "PokeRex Game",
-    date: "February, 2022",
-    author: "E",
-    image: "E",
-    description: "Loquesea",
-    technologies: "blabla",
+    url: "https://github.com/Becquerelia"
   },
   
 ];
@@ -70,8 +39,11 @@ function Projects() {
   const [allProjects, setAllProjects] = useState(projects);
 
   return (
-    <div>
-      <h1>Proyectos</h1>
+    <div style={{backgroundColor:"#6d11ab", paddingTop:"5rem"}} >
+
+      <Typography gutterBottom variant="h4" component="div" color="white">
+          MY PROJECTS
+        </Typography>
 
       <Grid
         sx={{
