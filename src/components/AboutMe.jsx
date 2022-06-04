@@ -18,6 +18,8 @@ import {
   Link,
 } from "@mui/material";
 import fotoEva from "../assets/Eva.jpg";
+import gitHubLogo from "../assets/github.png";
+import linkedInLogo from "../assets/linkedin.png";
 
 function AboutMe() {
   return (
@@ -51,8 +53,8 @@ function AboutMe() {
           height: 300,
         }}
       >
-        <Typography gutterBottom variant="h5" component="div">
-          Eva González Cagigas
+        <Typography gutterBottom variant="h5" component="div" color="#6d11ab" >
+          <b>Eva González Cagigas</b> 
         </Typography>
         <Divider />
         <br />
@@ -71,8 +73,8 @@ function AboutMe() {
             justifyContent: "center"
           }}
         >
-        <Button  sx={{ mx:2 }} color="secondary" href="https://github.com/Becquerelia">GitHub</Button>
-        <Button sx={{ mx:2 }} color="secondary" href="https://www.linkedin.com/in/evagonzalezcagigas">LinkedIn</Button>
+        <Button  sx={{ mx:2 }} color="secondary" href="https://github.com/Becquerelia"> <img src={gitHubLogo} alt="Logo GitHub" width="15%" style={{marginRight:"5px"}} /> GitHub</Button>
+        <Button sx={{ mx:2 }} color="secondary" href="https://www.linkedin.com/in/evagonzalezcagigas"> <img src={linkedInLogo} alt="Logo GitHub" width="15%" style={{marginRight:"5px"}} /> LinkedIn</Button>
         </Box>
       </Box>
     </Box>
