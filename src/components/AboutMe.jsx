@@ -1,22 +1,5 @@
 //!IMPORTS:
-import {
-  Box,
-  Button,
-  TextField,
-  Typography,
-  Dialog,
-  DialogActions,
-  DialogContent,
-  DialogContentText,
-  DialogTitle,
-  Card,
-  CardActions,
-  CardActionArea,
-  CardContent,
-  CardMedia,
-  Divider,
-  Link,
-} from "@mui/material";
+import { Box, Button, Typography, Divider } from "@mui/material";
 import fotoEva from "../assets/Eva.jpg";
 import gitHubLogo from "../assets/github.png";
 import linkedInLogo from "../assets/linkedin.png";
@@ -53,28 +36,54 @@ function AboutMe() {
           height: 300,
         }}
       >
-        <Typography gutterBottom variant="h5" component="div" color="#6d11ab" >
-          <b>Eva González Cagigas</b> 
+        <Typography gutterBottom variant="h5" component="div" color="#6d11ab">
+          <b>Eva González Cagigas</b>
         </Typography>
         <Divider />
         <br />
         <Typography variant="body2" color="text.secondary">
           Hi! I'm a Spanish girl who enjoys with challenges, solving complex
           problems and trying to better myself. I love reading, science &
-          technology and web development. I consider myself a loyal, committed, diligent, tenacious and
-          resolutive person. And I’m 100% motivated to continue growing and
-          learning every day! 🚀
+          technology and web development. I consider myself a loyal, committed,
+          diligent, tenacious and resolutive person. And I’m 100% motivated to
+          continue growing and learning every day! 🚀
         </Typography>
         <br />
         <Box
           sx={{
             display: "flex",
             flexDirection: "row",
-            justifyContent: "center"
+            justifyContent: "center",
           }}
         >
-        <Button  sx={{ mx:2 }} color="secondary" href="https://github.com/Becquerelia"> <img src={gitHubLogo} alt="Logo GitHub" width="15%" style={{marginRight:"5px"}} /> GitHub</Button>
-        <Button sx={{ mx:2 }} color="secondary" href="https://www.linkedin.com/in/evagonzalezcagigas"> <img src={linkedInLogo} alt="Logo GitHub" width="15%" style={{marginRight:"5px"}} /> LinkedIn</Button>
+          <Button
+            sx={{ mx: 2 }}
+            color="secondary"
+            href="https://github.com/Becquerelia"
+          >
+            {" "}
+            <img
+              src={gitHubLogo}
+              alt="Logo GitHub"
+              width="15%"
+              style={{ marginRight: "5px" }}
+            />{" "}
+            GitHub
+          </Button>
+          <Button
+            sx={{ mx: 2 }}
+            color="secondary"
+            href="https://www.linkedin.com/in/evagonzalezcagigas"
+          >
+            {" "}
+            <img
+              src={linkedInLogo}
+              alt="Logo GitHub"
+              width="15%"
+              style={{ marginRight: "5px" }}
+            />{" "}
+            LinkedIn
+          </Button>
         </Box>
       </Box>
     </Box>
