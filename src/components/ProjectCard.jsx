@@ -27,7 +27,7 @@ function ProjectCard(props) {
       };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, minWidth: 345, m: 3 }}>
       <CardHeader
         avatar={
           <Avatar>
