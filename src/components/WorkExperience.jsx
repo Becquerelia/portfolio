@@ -94,6 +94,52 @@ function WorkExperience() {
             <Typography color="white">IVI-RMA (Madrid & Valladolid)</Typography>
           </TimelineContent>
         </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            variant="body2"
+            color="white"
+          >
+            September, 2015 - September, 2016
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot variant="outlined" sx={{ bgcolor: "white" }}>
+              <WorkIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }}>
+            <Typography variant="h6" component="span" color="white">
+            Junior Researcher in Neuroscience
+            </Typography>
+            <Typography color="white">Complutense University, Medicine School <br /> Neuroscience & Psychopharmacology Lab
+</Typography>
+          </TimelineContent>
+        </TimelineItem>
+        <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            variant="body2"
+            color="white"
+          >
+            June, 2015 - September, 2015
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot variant="outlined" sx={{ bgcolor: "white" }}>
+              <WorkIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }}>
+            <Typography variant="h6" component="span" color="white">
+            Junior Researcher in Neuroscience
+            </Typography>
+            <Typography color="white">Cajal Institute - CSIC (Spanish National Research Council ) <br/> Neuronal Circuits Laboratory
+</Typography>
+          </TimelineContent>
+        </TimelineItem>
       </Timeline>
     </div>
   );
