@@ -43,7 +43,7 @@ function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="#6d11ab">
+            <Typography variant="h7" component="span" color="#6d11ab">
               Data Modeling Course (M320)
             </Typography>
             <Typography color="#6d11ab"> MongoDB University </Typography>
@@ -65,7 +65,7 @@ function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="#6d11ab">
+            <Typography variant="h7" component="span" color="#6d11ab">
               Full-Stack Web Development Full Time Bootcamp
             </Typography>
             <Typography color="#6d11ab">IronHack (Remote)</Typography>
@@ -88,7 +88,7 @@ function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="#6d11ab">
+            <Typography variant="h7" component="span" color="#6d11ab">
               Master in Biotechnology
             </Typography>
             <Typography color="#6d11ab">
@@ -112,7 +112,7 @@ function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="#6d11ab">
+            <Typography variant="h7" component="span" color="#6d11ab">
               Master in Biomedical Science & Research
             </Typography>
             <Typography color="#6d11ab">
@@ -136,7 +136,7 @@ function Education() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="#6d11ab">
+            <Typography variant="h7" component="span" color="#6d11ab">
               Bachelor’s Degree in Biochemistry
             </Typography>
             <Typography color="#6d11ab">
