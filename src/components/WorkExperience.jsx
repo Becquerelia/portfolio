@@ -11,11 +11,11 @@ import {
 } from "@mui/lab";
 import WorkIcon from "@mui/icons-material/Work";
 
-
 //!MAIN FUNCTION:
 function WorkExperience() {
   return (
     <div
+      id="work-experience"
       style={{
         backgroundColor: "#6d11ab",
         paddingTop: "5rem",
@@ -111,10 +111,12 @@ function WorkExperience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <Typography variant="h6" component="span" color="white">
-            Junior Researcher in Neuroscience
+              Junior Researcher in Neuroscience
             </Typography>
-            <Typography color="white">Complutense University, Medicine School <br /> Neuroscience & Psychopharmacology Lab
-</Typography>
+            <Typography color="white">
+              Complutense University, Medicine School <br /> Neuroscience &
+              Psychopharmacology Lab
+            </Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -134,10 +136,12 @@ function WorkExperience() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <Typography variant="h6" component="span" color="white">
-            Junior Researcher in Neuroscience
+              Junior Researcher in Neuroscience
             </Typography>
-            <Typography color="white">Cajal Institute - CSIC (Spanish National Research Council ) <br/> Neuronal Circuits Laboratory
-</Typography>
+            <Typography color="white">
+              Cajal Institute - CSIC (Spanish National Research Council ) <br />{" "}
+              Neuronal Circuits Laboratory
+            </Typography>
           </TimelineContent>
         </TimelineItem>
       </Timeline>

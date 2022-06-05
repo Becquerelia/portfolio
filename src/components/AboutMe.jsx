@@ -7,6 +7,7 @@ import linkedInLogo from "../assets/linkedin.png";
 function AboutMe() {
   return (
     <Box
+      id="about-me"
       sx={{
         m: 10,
         flexWrap: "wrap",

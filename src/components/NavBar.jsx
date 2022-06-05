@@ -10,9 +10,18 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button'
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
+import FitbitIcon from '@mui/icons-material/Fitbit';
 
-const pages = ['About me', 'My Projects', 'Skills', 'Training', 'Contact', 'My GitHub', 'My LinkedIn'];
+const sections = [
+  {name: "About me", ref: "#about-me"},
+  {name: "Projects", ref: "#my-projects"},
+  {name: "Skills", ref: "#my-skills"},
+  {name: "Work Experience", ref: "#work-experience"},
+  {name: "Education", ref: "#my-education"},    
+  {name: "GitHub", ref: "https://github.com/Becquerelia"},
+  {name: "LinkedIn", ref: "https://www.linkedin.com/in/evagonzalezcagigas"},
+  {name: "Contact", ref: "mailto:evarteca@gmail.com"}
+];
 
 //! MAIN FUNCTION:
 function NavBar() {
@@ -35,7 +44,7 @@ function NavBar() {
         justifyContent: "center",
       }}>
         <Toolbar disableGutters  >
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <FitbitIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -51,10 +60,10 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            EVA G.C.
+            EVA GC
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ mr: 8, flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -83,14 +92,15 @@ function NavBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+              {sections.map((eachSection, index) => (
+                <MenuItem key={eachSection + index} onClick={handleCloseNavMenu} >
+                <Button  color="secondary" href={eachSection.ref} ><Typography textAlign="center" >{eachSection.name}</Typography></Button>
                 </MenuItem>
+                  
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          
           <Typography
             variant="h5"
             noWrap
@@ -107,16 +117,17 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            EVA G.C.
+            EVA GC
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {sections.map((eachSection, index) => (
               <Button
-                key={page}
+                key={eachSection + index}
+                href={eachSection.ref}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, mx: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {eachSection.name}
               </Button>
             ))}
           </Box>

@@ -16,6 +16,7 @@ import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 function Education() {
   return (
     <div
+      id="my-education"
       style={{
         paddingTop: "5rem",
         paddingBottom: "3rem",
@@ -65,7 +66,7 @@ function Education() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <Typography variant="h6" component="span" color="#6d11ab">
-            Full-Stack Web Development Full Time Bootcamp
+              Full-Stack Web Development Full Time Bootcamp
             </Typography>
             <Typography color="#6d11ab">IronHack (Remote)</Typography>
           </TimelineContent>
@@ -88,10 +89,10 @@ function Education() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <Typography variant="h6" component="span" color="#6d11ab">
-            Master in Biotechnology
+              Master in Biotechnology
             </Typography>
             <Typography color="#6d11ab">
-            European University (Madrid)
+              European University (Madrid)
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -112,10 +113,10 @@ function Education() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <Typography variant="h6" component="span" color="#6d11ab">
-            Master in Biomedical Science & Research
+              Master in Biomedical Science & Research
             </Typography>
             <Typography color="#6d11ab">
-            Leon University (Castilla y León)
+              Leon University (Castilla y León)
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -136,10 +137,10 @@ function Education() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
             <Typography variant="h6" component="span" color="#6d11ab">
-            Bachelor’s Degree in Biochemistry
+              Bachelor’s Degree in Biochemistry
             </Typography>
             <Typography color="#6d11ab">
-            Complutense University (Madrid)
+              Complutense University (Madrid)
             </Typography>
           </TimelineContent>
         </TimelineItem>

@@ -46,7 +46,7 @@ function Projects() {
   const [allProjects, setAllProjects] = useState(projects);
 
   return (
-    <div style={{ backgroundColor: "#6d11ab", paddingTop: "5rem" }}>
+    <div id="my-projects" style={{ backgroundColor: "#6d11ab", paddingTop: "5rem" }}>
       <Typography gutterBottom variant="h4" component="div" color="white">
         MY PROJECTS
       </Typography>

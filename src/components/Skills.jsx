@@ -45,7 +45,7 @@ function Skills() {
   };
 
   return (
-    <div style={{ paddingTop: "5rem" }}>
+    <div  id="my-skills" style={{ paddingTop: "5rem" }}>
       <Typography gutterBottom variant="h4" component="div" color="#6d11ab">
         MY SKILLS
       </Typography>
