@@ -41,6 +41,7 @@ const projects = [
   },
 ];
 
+//!MAIN FUNCTION:
 function Projects() {
   const [allProjects, setAllProjects] = useState(projects);
 
