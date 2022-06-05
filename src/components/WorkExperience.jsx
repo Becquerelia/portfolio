@@ -9,9 +9,8 @@ import {
   TimelineOppositeContent,
   TimelineDot,
 } from "@mui/lab";
-import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
-import AutoStoriesIcon from "@mui/icons-material/AutoStories";
+
 
 //!MAIN FUNCTION:
 function WorkExperience() {
