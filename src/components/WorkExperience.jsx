@@ -1,5 +1,5 @@
 //!IMPORTS:
-import { Grid, Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import {
   Timeline,
   TimelineItem,
