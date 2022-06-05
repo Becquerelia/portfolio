@@ -13,6 +13,7 @@ import {
   Typography,
   styled,
 } from "@mui/material";
+import { purple } from '@mui/material/colors';
 import ShareIcon from "@mui/icons-material/Share";
 import LaunchIcon from '@mui/icons-material/Launch';
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -40,7 +41,7 @@ function ProjectCard(props) {
   return (
     <Card sx={{ maxWidth: 345, minWidth: 345, m: 3 }}>
       <CardHeader
-        avatar={<Avatar>{eachProject.author}</Avatar>}
+        avatar={<Avatar sx={{ bgcolor: purple[800] }} aria-label="recipe" >{eachProject.author}</Avatar>}
         action={
           <IconButton aria-label="visit" href={eachProject.url} target="_blank" >
           <LaunchIcon />
@@ -61,7 +62,7 @@ function ProjectCard(props) {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="share">
+        <IconButton aria-label="share" href={eachProject.url} target="_blank" >
           <ShareIcon />
         </IconButton>
         
