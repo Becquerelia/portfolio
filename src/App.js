@@ -4,7 +4,8 @@ import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe.jsx";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
-import Training from "./components/Training.jsx";
+import WorkExperience from "./components/WorkExperience";
+import Education from "./components/Education";
 import Footer from "./components/Footer.jsx";
 
 //! MAIN FUNCTION:
@@ -15,7 +16,8 @@ function App() {
       <AboutMe />
       <Projects />
       <Skills />
-      <Training />
+      <WorkExperience />
+      <Education />
       <Footer />
     </div>
   );
