@@ -16,7 +16,6 @@ import {
 import ShareIcon from "@mui/icons-material/Share";
 import LaunchIcon from '@mui/icons-material/Launch';
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { useState } from "react";
 
 const ExpandMore = styled((props) => {
@@ -49,7 +48,7 @@ function ProjectCard(props) {
         }
         title={eachProject.name}
         subheader={eachProject.date}
-      />
+      />      
       <CardMedia
         component="img"
         height="194"
@@ -58,7 +57,7 @@ function ProjectCard(props) {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          {eachProject.description}
+          {eachProject.technologies}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -77,8 +76,8 @@ function ProjectCard(props) {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Techs:</Typography>
-          <Typography paragraph>{eachProject.technologies}</Typography>
+          <Typography paragraph>Description:</Typography>
+          <Typography paragraph>{eachProject.description}</Typography>
         </CardContent>
       </Collapse>
     </Card>

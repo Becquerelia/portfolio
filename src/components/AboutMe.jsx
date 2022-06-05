@@ -60,6 +60,7 @@ function AboutMe() {
             sx={{ mx: 2 }}
             color="secondary"
             href="https://github.com/Becquerelia"
+            target="_blank"
           >
             {" "}
             <img
@@ -74,6 +75,7 @@ function AboutMe() {
             sx={{ mx: 2 }}
             color="secondary"
             href="https://www.linkedin.com/in/evagonzalezcagigas"
+            target="_blank"
           >
             {" "}
             <img
