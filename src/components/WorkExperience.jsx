@@ -43,7 +43,7 @@ function WorkExperience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="white">
+            <Typography variant="h7" component="span" color="white">
               Full-Stack Web Developer
             </Typography>
             <Typography color="white"> FlamaTech (Remote) </Typography>
@@ -65,8 +65,8 @@ function WorkExperience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="white">
-              Teacher Assistant at Full-Stack Web Development Bootcamp
+            <Typography variant="h7" component="span" color="white">
+              Teacher Assistant in WebDev Bootcamp
             </Typography>
             <Typography color="white">IronHack (Remote)</Typography>
           </TimelineContent>
@@ -88,10 +88,10 @@ function WorkExperience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="white">
-              Embryologist & Researcher
+            <Typography variant="h7" component="span" color="white">
+              Embryologist
             </Typography>
-            <Typography color="white">IVI-RMA (Madrid & Valladolid)</Typography>
+            <Typography color="white">IVI-RMA</Typography>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -110,12 +110,11 @@ function WorkExperience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="white">
+            <Typography variant="h7" component="span" color="white">
               Junior Researcher in Neuroscience
             </Typography>
             <Typography color="white">
-              Complutense University, Medicine School <br /> Neuroscience &
-              Psychopharmacology Lab
+              Complutense University, Medicine School <br /> Neuroscience Lab
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -135,7 +134,7 @@ function WorkExperience() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent sx={{ py: "12px", px: 2 }}>
-            <Typography variant="h6" component="span" color="white">
+            <Typography variant="h7" component="span" color="white">
               Junior Researcher in Neuroscience
             </Typography>
             <Typography color="white">
