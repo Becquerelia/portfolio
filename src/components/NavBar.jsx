@@ -13,10 +13,9 @@ import MenuItem from '@mui/material/MenuItem';
 import FitbitIcon from '@mui/icons-material/Fitbit';
 
 const sections = [
-  {name: "About me", ref: "#about-me"},
   {name: "Projects", ref: "#my-projects"},
   {name: "Skills", ref: "#my-skills"},
-  {name: "Work Experience", ref: "#work-experience"},
+  {name: "Experience", ref: "#work-experience"},
   {name: "Education", ref: "#my-education"},    
   {name: "GitHub", ref: "https://github.com/Becquerelia"},
   {name: "LinkedIn", ref: "https://www.linkedin.com/in/evagonzalezcagigas"},
@@ -51,7 +50,7 @@ function NavBar() {
             component="a"
             href="/"
             sx={{
-              mr: 2,
+              mr: 1,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
@@ -102,12 +101,11 @@ function NavBar() {
           </Box>
           
           <Typography
-            variant="h5"
+            variant="h6"
             noWrap
-            component="a"
-            href=""
+            component="a"            
             sx={{
-              mr: 2,
+              mr: 18,
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
@@ -125,7 +123,7 @@ function NavBar() {
                 key={eachSection + index}
                 href={eachSection.ref}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, mx: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, mx: 1, color: 'white', display: 'block' }}
               >
                 {eachSection.name}
               </Button>

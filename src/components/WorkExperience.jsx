@@ -23,7 +23,7 @@ function WorkExperience() {
       }}
     >
       <Typography gutterBottom variant="h4" component="div" color="white">
-        WORK EXPERIENCE
+        EXPERIENCE
       </Typography>
       <Timeline position="alternate" sx={{ py: 5 }}>
         <TimelineItem>
