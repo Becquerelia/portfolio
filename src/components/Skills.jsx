@@ -1,5 +1,5 @@
 //!IMPORTS:
-import { Grid, Box, Typography, Tab, Tabs } from "@mui/material";
+import { Box, Typography, Tab, Tabs } from "@mui/material";
 import PropTypes from "prop-types";
 import { useState } from "react";
 
@@ -45,7 +45,7 @@ function Skills() {
   };
 
   return (
-    <div  id="my-skills" style={{ paddingTop: "5rem" }}>
+    <div id="my-skills" style={{ paddingTop: "5rem" }}>
       <Typography gutterBottom variant="h4" component="div" color="#6d11ab">
         MY SKILLS
       </Typography>
@@ -57,7 +57,7 @@ function Skills() {
           flexDirection: "row",
           justifyContent: "center",
           height: 300,
-          py: 5          
+          py: 5,
         }}
       >
         <Tabs
@@ -80,26 +80,40 @@ function Skills() {
           <Tab label="Version Control" {...a11yProps(6)} />
         </Tabs>
         <TabPanel value={value} index={0}>
-          HTML5 <br /> CSS <br /> JavaScriptES6
+          <b>
+            HTML5 <br /> CSS3 <br /> JavaScriptES6
+          </b>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          ReactJS <br /> Redux
+          <b>
+            ReactJS <br /> Redux
+          </b>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Material UI <br /> Bootstrap <br /> Handlebars <br /> ExpressJS
+          <b>
+            Material UI <br /> Bootstrap <br /> Handlebars <br /> ExpressJS
+          </b>
         </TabPanel>
         <TabPanel value={value} index={3}>
-          Stripe <br /> Cloudinary <br /> FullCallendar <br /> Nodemailer <br />{" "}
-          Socket.io <br /> GoogleMaps Platform <br /> Leaflet
+          <b>
+            Stripe <br /> Cloudinary <br /> FullCallendar <br /> Nodemailer{" "}
+            <br /> Socket.io <br /> GoogleMaps Platform <br /> Leaflet
+          </b>
         </TabPanel>
         <TabPanel value={value} index={4}>
-          Node.js <br /> API REST <br /> Postman <br /> Axios
+          <b>
+            Node.js <br /> API REST <br /> Postman <br /> Axios
+          </b>
         </TabPanel>
         <TabPanel value={value} index={5}>
-          noSQL <br /> MongoDB <br /> Mongoose
+          <b>
+            noSQL <br /> MongoDB <br /> Mongoose
+          </b>
         </TabPanel>
         <TabPanel value={value} index={6}>
-          Git <br /> GitHub <br /> GitHub Pages <br /> Heroku <br /> Netlify
+          <b>
+            Git <br /> GitHub <br /> GitHub Pages <br /> Heroku <br /> Netlify
+          </b>
         </TabPanel>
       </Box>
     </div>
