@@ -81,7 +81,7 @@ function Skills() {
         </Tabs>
         <TabPanel value={value} index={0}>
           <b>
-            HTML5 <br /> CSS3 <br /> JavaScriptES6
+            HTML5 <br /> CSS3 <br /> JavaScriptES6 <br /> TypeScript
           </b>
         </TabPanel>
         <TabPanel value={value} index={1}>
