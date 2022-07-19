@@ -26,6 +26,29 @@ function WorkExperience() {
         EXPERIENCE
       </Typography>
       <Timeline position="alternate" sx={{ py: 5 }}>
+      <TimelineItem>
+          <TimelineOppositeContent
+            sx={{ m: "auto 0" }}
+            align="right"
+            variant="body2"
+            color="white"
+          >
+            July, 2022 - Currently
+          </TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineConnector />
+            <TimelineDot variant="outlined" sx={{ bgcolor: "white" }}>
+              <WorkIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent sx={{ py: "12px", px: 2 }}>
+            <Typography variant="h7" component="span" color="white">
+              Junior Software Engineer
+            </Typography>
+            <Typography color="white"> IKEA - Ingka Group Digital (Remote) </Typography>
+          </TimelineContent>
+        </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: "auto 0" }}
@@ -33,7 +56,7 @@ function WorkExperience() {
             variant="body2"
             color="white"
           >
-            April, 2022 - Currently
+            April, 2022 - June, 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
