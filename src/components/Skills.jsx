@@ -71,48 +71,54 @@ function Skills() {
           aria-label="Vertical tabs example"
           sx={{ borderRight: 2, borderColor: "#6d11ab" }}
         >
-          <Tab label="Main Languages" {...a11yProps(0)} />
-          <Tab label="Libraries" {...a11yProps(1)} />
-          <Tab label="Frameworks" {...a11yProps(2)} />
-          <Tab label="Packages" {...a11yProps(3)} />
-          <Tab label="Server Tools" {...a11yProps(4)} />
-          <Tab label="Database" {...a11yProps(5)} />
-          <Tab label="Version Control" {...a11yProps(6)} />
+          <Tab label="Programming Language" {...a11yProps(0)} />
+          <Tab label="MarkUp/Styling Language" {...a11yProps(1)} />
+          <Tab label="Frameworks & Libraries" {...a11yProps(2)} />
+          <Tab label="Backend & Database" {...a11yProps(3)} />
+          <Tab label="Testing" {...a11yProps(4)} />
+          <Tab label="Version Control & Tools" {...a11yProps(5)} />
+          <Tab label="Package Managers" {...a11yProps(6)} />
+          <Tab label="Methodologies" {...a11yProps(7)} />
         </Tabs>
         <TabPanel value={value} index={0}>
           <b>
-            HTML5 <br /> CSS3 <br /> JavaScriptES6 <br /> TypeScript
+           JavaScript ES6 <br /> TypeScript
           </b>
         </TabPanel>
         <TabPanel value={value} index={1}>
           <b>
-            ReactJS <br /> Redux
+           HTML5 <br /> CSS3
           </b>
         </TabPanel>
         <TabPanel value={value} index={2}>
           <b>
-            Material UI <br /> Bootstrap <br /> Handlebars <br /> ExpressJS
+           ReactJS <br /> (Hooks & HOCs) <br /> Redux <br /> Material UI <br /> Bootstrap
           </b>
         </TabPanel>
         <TabPanel value={value} index={3}>
           <b>
-            Stripe <br /> Cloudinary <br /> FullCallendar <br /> Nodemailer{" "}
-            <br /> Socket.io <br /> GoogleMaps Platform <br /> Leaflet
+           ExpressJS <br /> Node.js <br /> API REST <br /> Postman <br /> Axios <br /> noSQL <br /> MongoDB <br /> Mongoose <br /> Handlebars 
           </b>
         </TabPanel>
         <TabPanel value={value} index={4}>
           <b>
-            Node.js <br /> API REST <br /> Postman <br /> Axios
+          Jest <br /> Cypress <br /> (E2E & Components)
           </b>
         </TabPanel>
         <TabPanel value={value} index={5}>
           <b>
-            noSQL <br /> MongoDB <br /> Mongoose
+          Git <br /> GitHub <br /> (Actions & Pages) <br /> Heroku <br /> Netlify <br /> VS Code
           </b>
         </TabPanel>
         <TabPanel value={value} index={6}>
           <b>
-            Git <br /> GitHub <br /> GitHub Pages <br /> Heroku <br /> Netlify
+           NPM <br /> (Stripe <br /> Cloudinary <br /> FullCallendar <br /> Nodemailer{" "}
+           <br /> Socket.io <br /> GoogleMaps Platform <br /> Leaflet... )
+          </b>
+        </TabPanel>
+        <TabPanel value={value} index={7}>
+          <b>
+           Jira <br /> Trello <br /> Kanban <br /> Agile <br /> Scrum <br /> OKR
           </b>
         </TabPanel>
       </Box>
