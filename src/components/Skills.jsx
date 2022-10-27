@@ -73,12 +73,13 @@ function Skills() {
         >
           <Tab label="Programming Language" {...a11yProps(0)} />
           <Tab label="MarkUp/Styling Language" {...a11yProps(1)} />
-          <Tab label="Frameworks & Libraries" {...a11yProps(2)} />
-          <Tab label="Backend & Database" {...a11yProps(3)} />
-          <Tab label="Testing" {...a11yProps(4)} />
-          <Tab label="Version Control & Tools" {...a11yProps(5)} />
-          <Tab label="Package Managers" {...a11yProps(6)} />
-          <Tab label="Methodologies" {...a11yProps(7)} />
+          <Tab label="Server Side Rendering" {...a11yProps(2)} />
+          <Tab label="CSS Frameworks" {...a11yProps(3)} />
+          <Tab label="Backend & Database" {...a11yProps(4)} />
+          <Tab label="Testing" {...a11yProps(5)} />
+          <Tab label="Version Control & Tools" {...a11yProps(6)} />
+          <Tab label="Package Managers" {...a11yProps(7)} />
+          <Tab label="Methodologies" {...a11yProps(8)} />
         </Tabs>
         <TabPanel value={value} index={0}>
           <b>
@@ -92,31 +93,36 @@ function Skills() {
         </TabPanel>
         <TabPanel value={value} index={2}>
           <b>
-           ReactJS <br /> (Hooks & HOCs) <br /> Redux <br /> Material UI <br /> Bootstrap
+           ReactJS <br /> (Hooks & HOCs) <br /> NextJS
           </b>
         </TabPanel>
         <TabPanel value={value} index={3}>
           <b>
-           ExpressJS <br /> Node.js <br /> API REST <br /> Postman <br /> Axios <br /> noSQL <br /> MongoDB <br /> Mongoose <br /> Handlebars 
+           Material UI <br /> Tailwind <br /> Bootstrap 
           </b>
         </TabPanel>
         <TabPanel value={value} index={4}>
           <b>
-          Jest <br /> Cypress <br /> (E2E & Components)
+           ExpressJS <br /> Node.js <br /> API REST <br /> Postman <br /> Axios <br /> noSQL <br /> MongoDB <br /> Mongoose <br /> Handlebars 
           </b>
         </TabPanel>
         <TabPanel value={value} index={5}>
           <b>
-          Git <br /> GitHub <br /> (Actions & Pages) <br /> Heroku <br /> Netlify <br /> VS Code
+          Jest <br /> Cypress <br /> (E2E & Components)
           </b>
         </TabPanel>
         <TabPanel value={value} index={6}>
+          <b>
+          Git <br /> GitHub <br /> (Actions & Pages) <br /> Heroku <br /> Netlify <br /> VS Code
+          </b>
+        </TabPanel>
+        <TabPanel value={value} index={7}>
           <b>
            NPM <br /> (Stripe <br /> Cloudinary <br /> FullCallendar <br /> Nodemailer{" "}
            <br /> Socket.io <br /> GoogleMaps Platform <br /> Leaflet... )
           </b>
         </TabPanel>
-        <TabPanel value={value} index={7}>
+        <TabPanel value={value} index={8}>
           <b>
            Jira <br /> Trello <br /> Kanban <br /> Agile <br /> Scrum <br /> OKR
           </b>
