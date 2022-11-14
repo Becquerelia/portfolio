@@ -73,7 +73,7 @@ function Skills() {
         >
           <Tab label="Programming Language" {...a11yProps(0)} />
           <Tab label="MarkUp/Styling Language" {...a11yProps(1)} />
-          <Tab label="Server Side Rendering" {...a11yProps(2)} />
+          <Tab label="Frontend" {...a11yProps(2)} />
           <Tab label="CSS Frameworks" {...a11yProps(3)} />
           <Tab label="Backend & Database" {...a11yProps(4)} />
           <Tab label="Testing" {...a11yProps(5)} />
